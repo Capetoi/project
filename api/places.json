@@ -1,0 +1,40 @@
+{
+	"places": [
+		{
+			"id": "001",
+			"image": "http://via.placeholder.com/350x150",
+			"name": "Place 1",
+			"distance": 2.3
+		},
+		{
+			"id": "002",
+			"image": "http://via.placeholder.com/350x150",
+			"name": "Place 2",
+			"distance": 2.5
+		},
+		{
+			"id": "003",
+			"image": "http://via.placeholder.com/350x150",
+			"name": "Place 3",
+			"distance": 2.3
+		},
+		{
+			"id": "004",
+			"image": "http://via.placeholder.com/350x150",
+			"name": "Place 4",
+			"distance": 2.1
+		},
+		{
+			"id": "005",
+			"image": "http://via.placeholder.com/350x150",
+			"name": "Place 5",
+			"distance": 0.3
+		},
+		{
+			"id": "006",
+			"image": "http://via.placeholder.com/350x150",
+			"name": "Place 6",
+			"distance": 1
+		}
+	]
+}
