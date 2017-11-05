@@ -1,0 +1,56 @@
+html {
+	height: 100%;
+}
+
+body{
+	background: #000;
+	height: 100%;
+	font-size: 16px;
+	font-family: 'Cabin';
+	font-weight: 400;
+}
+.load{
+	position: relative;	
+	height: 100%;
+}
+
+.loading{
+	color: #ffffff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.loading-logo {
+	animation: rotate 1s linear infinite;
+}
+@keyframes rotate{
+	from {
+		transform: rotate(0deg)
+	}
+	to {
+		transform: rotate(360deg)
+	}
+}
+
+.loading-text:after{
+	content:"";
+	animation: load 2s infinite;
+}
+
+@keyframes load {
+	0%{
+		content:"";
+	}
+	25%{
+		content:" .";
+	}
+	50%{
+		content:" . .";
+	}
+	75%{
+		content:" . . .";
+	}
+}
