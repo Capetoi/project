@@ -1,0 +1,12 @@
+body{
+	/* background: red; */
+}
+.place{
+	display: flex;
+}
+.place img {
+	width: 300px;
+}
+.place__info {
+	
+}
