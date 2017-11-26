@@ -1,12 +1,85 @@
 body{
-	/* background: red; */
+	 background: #fff;
+}
+header{
+	position: fixed;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	text-align: center;
+	padding: 5px 10px;
+	background: #ffffff;
+}
+.backdrop{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	margin-top: 43px;
+	background: #000;
+	opacity: 0.3;
+}
+.menu{
+	position: fixed;
+	width: 60%;
+	height: 100%;
+	background: #ffffff;
+	margin-top: 43px;
+}
+.hide{
+	display: none;
+}
+
+.hamburger button{
+	height: 100%;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	background: #ffffff;
+	padding: 3px 5px;
+
+}
+
+.hamburger button:hover{
+	background: #aaa;
+}
+.search{
+	width: 70px;
+}
+.search input[type=text] {
+    width: 70px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 5px 7px 5px 7px;
+    transition: width 0.4s ease-in-out;
+		float: right;
+}
+
+.search input[type=text]:focus {
+    width: 150px;
+
+}
+
+#list{
+	width: auto;
+	text-align: center;
+	margin: 0 10px;
+	padding-top: 60px;
 }
 .place{
-	display: flex;
+	margin-bottom: 10px;
 }
 .place img {
-	width: 300px;
+	width: 100%;
 }
 .place__info {
-	
+	display: flex;
+	justify-content: space-between;
+}
+.place__info h4, .place__info p{
+	padding: 5px;
 }

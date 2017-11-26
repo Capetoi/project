@@ -27,3 +27,18 @@
 	};
 	INIT();
 })();
+
+function showMenu(){
+	$('#menuList').removeClass('hide');
+	$('#backdropL').removeClass('hide');
+}
+function hideMenu(){
+	$('#menuList').addClass('hide');
+	$('#backdropL').addClass('hide');
+}
+function toggleMenu(){
+	$('#menuList').toggleClass('hide');
+	$('#backdropL').toggleClass('hide');
+}
+$('#button_menu').click(toggleMenu);
+$('#backdropL').click(hideMenu);
