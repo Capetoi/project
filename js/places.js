@@ -2,7 +2,7 @@
 	var places = [];
 	function getData(onSuccess) {
 		// var _places = places;
-		$.getJSON('//localhost/project/api/places.json', function(json, textStatus) {
+		$.getJSON('api/places.json', function(json, textStatus) {
 				places = json.places;
 				onSuccess();
 		});

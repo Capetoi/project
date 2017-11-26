@@ -2,37 +2,37 @@
 	"places": [
 		{
 			"id": "001",
-			"image": "http://via.placeholder.com/350x150",
+			"image": "https://media.foody.vn/res/g2/13882/prof/s320x200/foody-mobile-d62rbfff-jpg-209-635787957004107701.jpg",
 			"name": "Place 1",
 			"distance": 2.3
 		},
 		{
 			"id": "002",
-			"image": "http://via.placeholder.com/350x150",
+			"image": "https://media.foody.vn/res/g66/658726/prof/s320x200/foody-mobile-2-jpg-766-636302024500109813.jpg",
 			"name": "Place 2",
 			"distance": 2.5
 		},
 		{
 			"id": "003",
-			"image": "http://via.placeholder.com/350x150",
+			"image": "https://media.foody.vn/res/g2/13882/prof/s320x200/foody-mobile-d62rbfff-jpg-209-635787957004107701.jpg",
 			"name": "Place 3",
 			"distance": 2.3
 		},
 		{
 			"id": "004",
-			"image": "http://via.placeholder.com/350x150",
+			"image": "https://media.foody.vn/res/g70/698303/prof/s320x200/foody-mobile-foody-su-an-ngon-com.jpg",
 			"name": "Place 4",
 			"distance": 2.1
 		},
 		{
 			"id": "005",
-			"image": "http://via.placeholder.com/350x150",
+			"image": "https://media.foody.vn/res/g2/13882/prof/s320x200/foody-mobile-d62rbfff-jpg-209-635787957004107701.jpg",
 			"name": "Place 5",
 			"distance": 0.3
 		},
 		{
 			"id": "006",
-			"image": "http://via.placeholder.com/350x150",
+			"image": "https://media.foody.vn/res/g27/263327/prof/s320x200/foody-mobile-abc-jpg-942-636114501380951944.jpg",
 			"name": "Place 6",
 			"distance": 1
 		}
